@@ -1,0 +1,41 @@
+{
+  "name": "tac-ruc-client-roster",
+  "version": "1.0.0",
+  "description": "Create gulp for converting scss and es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "students",
+    "classes",
+    "members",
+    "db",
+    "js",
+    "es6",
+    "scss"
+  ],
+  "author": "Timothy A Carey",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
